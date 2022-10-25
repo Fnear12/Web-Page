@@ -1,13 +1,17 @@
 body {
   margin: 0;
   background-color: rgb(55, 65, 81);
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
 }
 
 .general {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
   flex: 1 1 0%;
+  max-width: 1024px;
 }
 
 
@@ -22,7 +26,7 @@ body {
 }
 
 .title-format {
-  line-height: 6.5rem;
+  line-height: 4.5rem;
   letter-spacing: -.025rem;
   color: rgb(255, 255, 255);
   margin: 0;
@@ -31,14 +35,14 @@ body {
 .title-format-main {
   display: block;
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 3.5rem;
   word-break: break-word;
 }
 
 .title-format-name {
   display: block;
   font-weight: 200;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title-format-description {
